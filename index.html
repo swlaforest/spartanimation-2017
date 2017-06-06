@@ -3,6 +3,9 @@
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
   <title>Spartanimation 2017</title>
 </head>
@@ -11,7 +14,24 @@
   <div class="container">
     <div class="containerHeader">
       <div class="headerItem headerLeft">
-        <img src="img/spartanLeft.png">
+        <!-- Left aligned menu below button -->
+      <button id="demo-menu-lower-left"
+              class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons md-24">menu</i>
+      </button>
+
+      <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+          for="demo-menu-lower-left">
+          <li class="mdl-menu__item"><a href="#peyton">Peyton and Damion</a></li>
+          <li class="mdl-menu__item"><a href="#danielle">Danielle</a></li>
+          <li class="mdl-menu__item"><a href="#bobby">Bobby</a></li>
+          <li class="mdl-menu__item"><a href="#colton">Colton</a></li>
+          <li class="mdl-menu__item"><a href="#josh">Josh</a></li>
+          <li class="mdl-menu__item"><a href="#cyrus">Cyrus</a></li>
+          <li class="mdl-menu__item"><a href="#thomas">Thomas</a></li>
+          <li class="mdl-menu__item"><a href="#reece">Reece and Jake</a></li>
+
+      </ul>
       </div>
       <div class="headerItem headerMain">
         <h1>Spartanimation 2017</h1>
@@ -21,25 +41,54 @@
       </div>
 
     </div>
-    <div class="containerSidebar">
-      <div>
-        <h2>Projects List</h2>
-      </div>
-      <div>
-        <ul>
-          <li>Coming Soon </li>
-          <li>Coming Soon </li>
-        </ul>
-      </div>
-    </div>
+
     <div class="containerMain">
       <div>
         <h2>Projects</h2>
       </div>
-      <div>
-          
-      </div>
+        <div id="peyton">
+          <h2> Peyton and Damion</h2>
+          <div class="video-container">
+              <iframe src="https://drive.google.com/file/d/0B32TZlbqGgROT0NiV1Z1WnBLMjg/preview" ></iframe>
+          </div>
+        </div>
+        <div id="danielle">
+          <h2> Danielle</h2>
+          <div class="video-container">
+              <iframe src="https://drive.google.com/file/d/0B9MQnzFx9coccF9jcjFGZGE1eTQ/preview"></iframe>
+          </div>
+        </div>
+        <div id="bobby">
+          <h2> Bobby</h2>
+          <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/0B9hmf2IY4l3maXAzLWtaU0ZMXzA/preview" ></iframe>
+        </div>
+        </div>
+        <div id="colton">
+          <h2> Colton</h2>
+          <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/0B6IrNfsEoolHc2dvMHlFRC1FTW8/preview" ></iframe>
+          </div>
+        </div>
+        <div id="josh">
+          <h2> Josh</h2>
+          <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/0BzUHn0p5Zsb7Q1VXellPSDdUSjg/preview"></iframe>
+          </div>
+        </div>
 
+        <div id="thomas">
+          <h2> Thomas</h2>
+          <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/0B4DjI7mptTLiUGFMeU93bVN3RjQ/preview" ></iframe>
+          </div>
+        </div>
+        <div id="reece">
+          <h2> Reece and Jake</h2>
+          <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/0B9iwXKwj31jNd2tHNVlvM2tHRVE/preview" ></iframe>
+          </div>
+        </div>
     </div>
     <div class="containerFooter">
       <p>All projects created by Sentinel High School 3D Design and Animation students.
